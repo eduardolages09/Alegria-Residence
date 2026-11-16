@@ -1,0 +1,9 @@
+/* Proposta E · Alegria — Saira + Reddit Sans.
+   O verde do azulejo da fachada do Bolhão sobre pedra clara; cada casa com a cor dela (a porta verde, a nogueira, o azul do sofá). */
+:root {
+  --nome: "Saira", Georgia, serif; --serif: "Saira", Georgia, serif; --sans: "Reddit Sans", system-ui, sans-serif;
+  --peso-titulo: 300; --peso-nome: 200;
+  --fundo: #f4f1ec; --fundo-2: #ebe6dd; --tinta: #1c2624; --tinta-2: #6a6f6c; --destaque: #2e6153; --destaque-2: #23493e; --destaque-claro: #a1b8b2; --escuro: #1d2f2a; --escuro-2: #29423b; --quartos: #1d2f2a; --claro: #f4f1ec; --bloco: #c8d1ca;
+  --letra: 16px; --letra-tm: calc(16px - .5px);
+}
+html { font-stretch: 112%; } :is(h1, h2, h3, [class*=nome], .e-q--remate b) { letter-spacing: -.012em !important; }
